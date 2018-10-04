@@ -9,7 +9,8 @@ const msg = {
   to: 'chosuh2012@gmail.com',
   from: 'mailer@kyle_p.tech',
   subject: 'SendGrid Lecture',
-  text: 'Hi. Do you want Pocky? :)'
+  text: 'Hi. Do you want Pocky? :)',
+  html: '<strong>Hi. Do you want Pocky? :)</strong>'
 };
 
 sgMail.send(msg);
